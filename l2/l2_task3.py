@@ -6,6 +6,7 @@ temp=x
 result=0
 for i in range(n):
     temp = math.sin(temp)
+    #print("temp",temp)
     result += temp
     #print(result)
 print("Сумма=",result)
